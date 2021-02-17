@@ -1,10 +1,8 @@
 # What is RudderStack?
 
-**Short answer:**
-Rudder is an open-source Segment alternative written in Go, built for the enterprise. .
+[RudderStack](https://rudderstack.com/) is a **customer data pipeline** tool for collecting, routing and processing data from your websites, apps, cloud tools, and data warehouse.
 
-**Long answer:**
-Rudder is a platform for collecting, storing and routing customer event data to dozens of tools. Rudder is open-source, can run in your cloud environment (AWS, GCP, Azure or even your data-centre) and provides a powerful transformation framework to process your event data on the fly.
+More information on RudderStack can be found [here](https://github.com/rudderlabs/rudder-server).
 
 ## Getting Started with PHP SDK
 
@@ -14,6 +12,7 @@ git clone https://github.com/rudderlabs/rudder-sdk-php /my/app/folders/
 ```
 
 ## Initialize the ```Client```
+
 ```
 require_once("/path/to/lib/Rudder.php");
 
@@ -27,6 +26,7 @@ Rudder::init(WRITE_KEY, array(
 ```
 
 ## Send Events
+
 ```
 Rudder::track(array(
   "userId" => "f4ca124298",
@@ -38,4 +38,5 @@ Rudder::track(array(
 ```
 
 ## Contact Us
-If you come across any issues while configuring or using RudderStack, please feel free to [contact us](https://rudderstack.com/contact/) or start a conversation on our [Slack](https://resources.rudderstack.com/join-rudderstack-slack) channel. We will be happy to help you.
+
+If you come across any issues while configuring or using this SDK, feel free to start a conversation on our [Slack](https://resources.rudderstack.com/join-rudderstack-slack) channel. We will be happy to help you.
